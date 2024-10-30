@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url(https://media.istockphoto.com/id/495378164/es/foto/garaje-taller-3-d-imagen.jpg?s=2048x2048&w=is&k=20&c=iZo_H-F4dL8qUzP1YC1gHGkkeIEOd4KEvny_IsHSv1A=);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+h1 {
+    color: #2B25D9;
+    margin-bottom: 10px;
+    font-size: 36px;
+    text-align: left;
+}
+
+h2 {
+    color: #2B25D9;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: left;
+}
+
+.inventory-box {
+    background: #92c1ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px; /* Espacio entre el título y la caja de inventario */
+}
+
+.inventory-list {
+    list-style: none;
+    padding: 0;
+}
+
+.inventory-list li {
+    margin: 15px 0; /* Espacio entre los elementos de la lista */
+}
+
+.inventory-list a {
+    text-decoration: none;
+    color: #2B25D9;
+    font-weight: 700;
+    font-size: 22px; /* Tamaño de fuente ajustado */
+    transition: color 0.3s, text-decoration 0.3s; /* Transición suave */
+}
+
+.inventory-list a:hover {
+    color: #0056b3; /* Color al pasar el mouse */
+    text-decoration: underline;
+}
+
+.logout {
+    background-color: #4460a2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.logout:hover {
+    background-color: #4d4c4c; /* Color más oscuro al pasar el mouse */
+}
